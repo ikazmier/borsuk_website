@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zachowanie borsuków</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .back-button {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <button class="back-button" onclick="goBack()">Powrót</button>
+  
+  <h1>Zachowanie borsuków</h1>
+  <ul>
+    <li>Borsuki są zwierzętami nadrzewnymi.</li>
+    <li>Spędzają większość czasu na poszukiwaniu pożywienia.</li>
+    <li>Mają tendencję do kopania nory w ziemi lub w korzeniach drzew.</li>
+    <li>Są samotnikami i są territorialne.</li>
+  </ul>
+  <img src="borsuk1.jpg" alt="Borsuk" width="1000" height="590">
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
